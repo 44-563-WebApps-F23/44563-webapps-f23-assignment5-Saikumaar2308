@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="color: rgb(20, 17, 17);">A Few Cities</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="Basic.html" style="color: crimson;">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="advanced.html" style="color: rgb(193, 193, 51);">Advanced</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 <head>
   <title>Exploring cities Wonders</title>
   <meta charset="utf-8">
@@ -126,8 +143,50 @@ of Srinagar, India's cities have something unique to offer every traveler.
 
 <div class="btn-GROUP" role="group" aria-label="btn-danger">
   <button type="button" class="btn btn-danger">M</button>
-
-  
 </div>
+<br>
+
+
+<div class="btn-group" role="group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="Basic.html">Basic</a></li>
+    <li><a class="dropdown-item" href="advanced.html">advanced</a></li>
+  </ul>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+        <form>
+            <!-- First Form Group (Email) -->
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+            <!-- Second Form Group (City) -->
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" placeholder="Enter your city">
+            </div>
+
+            <!-- Third Form Group (Newsletter Checkbox) -->
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    Sign up for newsletter?
+                </label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
 </body>
 </html>
